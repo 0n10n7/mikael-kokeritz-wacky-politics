@@ -1,0 +1,16 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+#CompassBody{
+    display: flex;
+    -ms-flex-align: center;
+    justify-content: center;
+}
+img{
+    width: 992px;
+    height: 1080px
+}
+footer{
+    font-family:'Courier New', Courier, monospace
+}
