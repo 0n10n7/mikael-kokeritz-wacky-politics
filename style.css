@@ -40,18 +40,16 @@ div.Flex{
   display: flex;
   flex-wrap: wrap;
 }
-div.toppmeny {
+div.toppmeny{
   display: flex;
   justify-content: space-evenly;
   background-color: white;
-  border: lightgray;
   border-width: 1vh;
   border-radius: 0.5vh;
-  border-color: lightgray;
-  margin: 0vh;
-  padding: 1vw;
-  height: 7vh;
+  border-color: white;
+  border-style: solid;
   width: 100vw;
+  padding: 1vh;
 }
 #toppmeny2{
   width: 60%;
@@ -61,7 +59,13 @@ div.toppmeny {
 a.toppmenyA {
   border-width: 10px;
   border: gray;
-  margin: 0.5vw;
+  border-width: 0px 1px 1px 0px; 
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  border-style: solid;
+  margin: auto;
   border-radius: 1px;
   background-color: white;
 }
