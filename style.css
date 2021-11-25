@@ -15,7 +15,7 @@ div.sticky {
 div.grid {
   display: grid;
 }
-#gridbody{
+#gridbody {
   grid-template-columns: repeat(100, 1%);
   grid-template-rows: repeat(100, 1%);
   max-width: 100vw;
@@ -24,24 +24,24 @@ div.grid {
   height: auto;
   aspect-ratio: 1882/2048;
 }
-#gridbodytimeline{
-  grid-template-columns:repeat(3,33%) ;
+#gridbodytimeline {
+  grid-template-columns: repeat(3, 33%);
   width: 100vw;
   height: 600vh;
 }
-#timelineBlack{
-  width:3vw;
+#timelineBlack {
+  width: 3vw;
   height: 600vh;
 }
-#gridbodycompass{
+#gridbodycompass {
   grid-template-columns: 1;
   grid-template-rows: 2;
 }
-div.Flex{
+div.Flex {
   display: flex;
   flex-wrap: wrap;
 }
-div.toppmeny{
+div.toppmeny {
   display: flex;
   justify-content: space-evenly;
   background-color: white;
@@ -54,7 +54,7 @@ div.toppmeny{
 a.toppmenyA {
   border-width: 10px;
   border: gray;
-  border-width: 0px 1px 1px 0px; 
+  border-width: 0px 1px 1px 0px;
   padding-top: 2vh;
   padding-bottom: 2vh;
   padding-left: 5vw;
@@ -64,7 +64,7 @@ a.toppmenyA {
   border-radius: 1px;
   background-color: white;
 }
-#toppmeny2{
+#toppmeny2 {
   display: flex;
   justify-content: space-evenly;
   background-color: white;
@@ -77,11 +77,12 @@ a.toppmenyA {
   top: 0;
   left: 0;
   flex-wrap: wrap;
+  height: 5vh;
 }
-a.toppmenyA2{
+a.toppmenyA2 {
   border-width: 10px;
   border: gray;
-  border-width: 0px 1px 1px 0px; 
+  border-width: 0px 1px 1px 0px;
   padding-top: 0.5vh;
   padding-bottom: 0.5vh;
   padding-left: 5vw;
