@@ -22,6 +22,7 @@ div.grid {
   max-height: 100vh;
   width: auto;
   height: auto;
+  aspect-ratio: 1882/2048;
 }
 #gridbodytimeline{
   grid-template-columns:repeat(3,33%) ;
@@ -49,12 +50,6 @@ div.toppmeny{
   border-color: white;
   border-style: solid;
   width: 100vw;
-  padding: 1vh;
-}
-#toppmeny2{
-  width: 60%;
-  height: 100vh;
-  flex-wrap: wrap;
 }
 a.toppmenyA {
   border-width: 10px;
@@ -62,6 +57,33 @@ a.toppmenyA {
   border-width: 0px 1px 1px 0px; 
   padding-top: 2vh;
   padding-bottom: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  border-style: solid;
+  margin: auto;
+  border-radius: 1px;
+  background-color: white;
+}
+#toppmeny2{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  border-width: 0.5vh;
+  border-radius: 0.5vh;
+  border-color: white;
+  border-style: solid;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-wrap: wrap;
+}
+a.toppmenyA2{
+  border-width: 10px;
+  border: gray;
+  border-width: 0px 1px 1px 0px; 
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
   padding-left: 5vw;
   padding-right: 5vw;
   border-style: solid;
