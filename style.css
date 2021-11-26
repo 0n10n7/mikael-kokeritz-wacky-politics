@@ -25,13 +25,14 @@ div.grid {
   aspect-ratio: 1882/2048;
 }
 #gridbodytimeline {
-  grid-template-columns: repeat(3, 33%);
+  grid-template-columns:(48vw,auto,48vw,);
+  grid-template-rows: repeat(10, auto);
   width: 100%;
   height: auto;
 }
 #timelineBlack {
   width: 3vw;
-  height: 10000vh;
+  height:100vh;
 }
 #gridbodycompass {
   grid-template-columns: 1;
