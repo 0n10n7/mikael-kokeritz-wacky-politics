@@ -25,7 +25,7 @@ div.grid {
   aspect-ratio: 1882/2048;
 }
 #gridbodytimeline {
-  grid-template-columns:(48vw,auto,48vw,);
+  grid-template-columns:(45%,10%,45%);
   grid-template-rows: repeat(10, auto);
   width: 100%;
   height: auto;
