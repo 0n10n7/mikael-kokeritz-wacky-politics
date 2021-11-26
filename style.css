@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: rgb(42, 42, 42);
 }
@@ -26,18 +26,18 @@ div.grid {
 }
 #gridbodytimeline {
   grid-template-columns: repeat(3, 33%);
-  width: 100vw;
-  height: 600vh;
+  width: 100%;
+  height: auto;
 }
 #timelineBlack {
   width: 3vw;
-  height: 600vh;
+  height: 10000vh;
 }
 #gridbodycompass {
   grid-template-columns: 1;
   grid-template-rows: 2;
 }
-#gridbodyiceberg{
+#gridbodyiceberg {
   grid-template-columns: repeat(100, 1%);
   grid-template-rows: repeat(100, 1%);
   max-width: 90vw;
@@ -45,6 +45,7 @@ div.grid {
   width: auto;
   height: auto;
   aspect-ratio: 1728/2148;
+  margin: auto;
 }
 div.Flex {
   display: flex;
@@ -58,7 +59,7 @@ div.toppmeny {
   border-radius: 0.5vh;
   border-color: white;
   border-style: solid;
-  width: 100vw;
+  width: 100%;
 }
 a.toppmenyA {
   border-width: 10px;
@@ -81,7 +82,6 @@ div.toppmeny2 {
   border-radius: 0.5vh;
   border-color: white;
   border-style: solid;
-  width: 100vw;
   position: absolute;
   top: 0;
   left: 0;
